@@ -2,8 +2,8 @@
 
 /*
 
-Plugin Name: Show Manager
-description: A plugin to manage shows & events
+Plugin Name: Custom Show Manager
+description: A plugin to manage a shows & events post type and display them on a page or post in different ways
 Version: 1
 Author: Peter Giammarco
 
