@@ -1,6 +1,6 @@
 <?php
 
-function up_page_header_render_cb($atts){
+function up_header_render_cb($atts){
 
     $heading = esc_html($atts['content']);
 

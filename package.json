@@ -1,7 +1,7 @@
 {
-  "name": "show-manager",
+  "name": "block-additions",
   "version": "1.0.0",
-  "description": "Custom Post Type to Add/Edit and Manage Shows",
+  "description": "Additional blocks for Gutenberg",
   "main": "index.js",
   "scripts": {
     "build": "wp-scripts build",

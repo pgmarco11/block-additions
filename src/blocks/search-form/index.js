@@ -19,15 +19,15 @@ registerBlockType(block.name, {
             <>
             <InspectorControls>
                 <PanelColorSettings
-                    title={__('Colors', 'show-manager')}
+                    title={__('Colors', 'block-additions')}
                     colorSettings={[
                         {
-                            label: __('Background Color', 'show-manager'),
+                            label: __('Background Color', 'block-additions'),
                             value: bgColor,
                             onChange: ( newVal ) => setAttributes({bgColor: newVal})
                         },
                         {
-                            label: __('Text Color','show-manager'),
+                            label: __('Text Color','block-additions'),
                             value: textColor,
                             onChange: ( newVal ) => setAttributes({textColor: newVal})
                         }

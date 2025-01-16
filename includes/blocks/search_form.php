@@ -10,10 +10,10 @@ function up_search_form_render_cb($atts) {
     ob_start();
     ?>
     <div style="<?php echo $styleAttr; ?>" class="wp-block-udemy-plus-search-form">
-                <h1><?php esc_html_e('Search','show-manager'); ?> : <?php  the_search_query(); ?> </h1>
+                <h1><?php esc_html_e('Search','block-additions'); ?> : <?php  the_search_query(); ?> </h1>
                 <form action="<?php echo esc_url(home_url('/')); ?>">
                     <input type="text" 
-                    placeholder=<?php esc_html_e('Search','show-manager'); ?> 
+                    placeholder=<?php esc_html_e('Search','block-additions'); ?> 
                     name="s" 
                     value="<?php the_search_query(); ?>"
                     />
@@ -22,7 +22,7 @@ function up_search_form_render_cb($atts) {
                         type="submit" 
                         style="<?php echo $styleAttr; ?>" 
                         >
-                        <?php esc_html_e('Search','show-manager'); ?>
+                        <?php esc_html_e('Search','block-additions'); ?>
                         </button>
                     </div>
                 </form>

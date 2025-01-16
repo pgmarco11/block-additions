@@ -1,13 +1,13 @@
 {
     "$schema": "https://schemas.wp.org/trunk/block.json",
     "apiVersion": 3,
-    "name": "show-manager/fancy-header",
+    "name": "block-additions/fancy-header",
     "title": "Fancy Header",
     "category": "text",
     "description": "adds a header with a hover effect",
     "keywords": ["header", "underline", "hover"],
     "version": "1",
-    "textdomain": "show-manager",
+    "textdomain": "block-additions",
     "editorScript": "file:./index.js",
     "attributes": {
         "content": {

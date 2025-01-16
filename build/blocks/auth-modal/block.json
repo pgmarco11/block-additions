@@ -1,21 +1,18 @@
 {
   "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
   "apiVersion": 2,
-  "name": "block-additions/page-header",
-  "title": "Page Header",
+  "name": "block-additions/auth-modal",
+  "title": "Authentication Modal",
   "category": "text",
-  "description": "Adds a page header",
+  "description": "Adds an authentication modal",
   "textdomain": "block-additions",
   "attributes": {
-    "content": {
-      "type": "string",
-      "default": ""
-    },
-    "showCategory": {
+    "showRegister": {
       "type": "boolean",
-      "default": false
+      "default": true
     }
   },
   "editorScript": "file:./index.js",
-  "style": "file:./index.css"
+  "style": "file:./index.css",
+  "viewScript": "file:./frontend.js"
 }

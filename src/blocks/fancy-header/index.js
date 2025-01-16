@@ -32,7 +32,7 @@ registerBlockType(block.name, {
           <RichText
             className="fancy-header"
             tagName="h2"
-            placeholder={__('Enter Heading...', 'show-manager')}
+            placeholder={__('Enter Heading...', 'block-additions')}
             value={content}
             onChange={newVal => setAttributes({ content: newVal })}
             allowedFormats={['core/bold', 'core/italic']}

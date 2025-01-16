@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
     "apiVersion": 2,
-    "name": "show-manager/page-header",
+    "name": "block-additions/page-header",
     "title": "Page Header",
     "category": "text",
     "description": "Adds a page header",
-    "textdomain": "show-manager",
+    "textdomain": "block-additions",
     "attributes": {
         "content": {
             "type": "string",
